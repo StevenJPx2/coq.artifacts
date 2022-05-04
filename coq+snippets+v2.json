@@ -73764,16 +73764,6 @@
         "fatal_error_message": true
       }
     },
-    "886afd0b-19e9-3c14-a509-f7f8746243b0": {
-      "content": "(define (${1:name})\n\t\t(${0:definition}))",
-      "doc": "",
-      "filetype": "scheme",
-      "grammar": "snu",
-      "label": "",
-      "matches": {
-        "def": true
-      }
-    },
     "886fcab2-cb36-3952-95bc-81cf2a9c43c9": {
       "content": "{% block ${1} %}\n\t${0}\n{% endblock %}",
       "doc": "",
@@ -101208,6 +101198,16 @@
       "label": "json tag",
       "matches": {
         "json": true
+      }
+    },
+    "b98f3c7f-aa88-3664-8f1e-c70bdad751d2": {
+      "content": "(define (${1:name})\n\t\t${0:definition})",
+      "doc": "",
+      "filetype": "scheme",
+      "grammar": "snu",
+      "label": "",
+      "matches": {
+        "def": true
       }
     },
     "b99d87aa-56d0-3c50-95e2-b8d1e0fe6346": {
